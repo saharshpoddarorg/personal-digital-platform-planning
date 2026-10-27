@@ -3,8 +3,8 @@
 Status: discovery baseline; not a finalized SRS or approved implementation architecture.
 Updated: 2026-10-27.
 
-This directory is the durable planning record for the Personal Digital Platform.
-The existing repository is an experimental reference, not the architectural authority.
+This repository is the authoritative planning record for the Personal Digital Platform.
+[learning-assistant](https://github.com/saharshpoddarorg/learning-assistant) is an experimental reference, not the architectural authority.
 PKM and Learning are initial priorities; Productivity and Planning are future candidates.
 
 ## Read in this order
@@ -40,3 +40,13 @@ Record retain/refactor/merge/redesign/migrate/defer/remove dispositions with rat
 
 This is repository-level documentation, not a Java package.
 Its location does not determine implementation organization. Decision 002 records the subsequently accepted separate platform/vault repository direction; detailed architecture remains open.
+
+## Repository purpose and continuity
+
+This private planning repository is separate from the future implementation repository and knowledge vault. Neither has been created by this migration. The long-term location of planning documents may be reconsidered explicitly later.
+
+Start a new chat by supplying this repository URL and asking the assistant to read this README, the current checkpoint, requirements and decision records before continuing. A suggested resume message is in [RESUME.md](RESUME.md).
+
+Record substantive outcomes with accepted/proposed/provisional/deferred/superseded status, rationale, evidence and open questions. Update the checkpoint, review the diff and publish authorized changes. Do not keep a second evolving copy in learning-assistant. Git only preserves changes that are committed; the remote only receives pushed changes.
+
+See [migration provenance](reviews/planning-repository-migration.md) for source commits and preservation limits. Preserve the origin repository or migrate required source evidence before retiring it.

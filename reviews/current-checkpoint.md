@@ -24,10 +24,11 @@ Separate platform and canonical vault Git repositories are now accepted planning
 
 The user is working through questions and concerns iteratively before a starting draft design.
 The first question (vault/platform boundaries) has an explicit planning green signal; see Decision 002 for accepted, provisional and open points.
+The user authorized moving active planning into the private personal-digital-platform-planning repository, preserving planning history and origin evidence references. See [migration provenance](planning-repository-migration.md).
 Next, invite the user's next question/doubt. Do not force resolution of all implementation details or restart the audit.
 Mobile offline search, connector fidelity, detailed synchronization/conflict handling and derived-view refresh remain open.
 Formal inventory completeness acceptance has not been inferred from this boundary decision.
-No background work is scheduled.
+Use this repository as the single active planning home. The old location is a relocation pointer; pinned source history remains in learning-assistant. No background work is scheduled.
 
 ## Pending review
 

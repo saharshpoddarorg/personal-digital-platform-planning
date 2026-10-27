@@ -1,6 +1,6 @@
 # Evidence and recovery guide
 
-Source snapshot: `8db1797ef36ef68f6675ad53231f887d51fd92b9` in this repository.
+Source snapshot: `8db1797ef36ef68f6675ad53231f887d51fd92b9` in [learning-assistant](https://github.com/saharshpoddarorg/learning-assistant).
 
 - [Source index](source-index.json): 733 paths, blob hashes, pinned URLs and retrieval/exclusion status, plus 33 removed Markdown versions.
 - [Inventory](../source-inventory.md): interpreted capabilities and source links.
@@ -8,7 +8,7 @@ Source snapshot: `8db1797ef36ef68f6675ad53231f887d51fd92b9` in this repository.
 
 ## Why raw extracts are not duplicated
 
-Source Markdown and implementation already exist in this repository's history.
+Source Markdown and implementation already exist in the origin learning-assistant repository's history.
 Recommitting multi-megabyte JSON copies would duplicate text and republish incidental personal/work context.
 This branch retains synthesis and exact references instead. Local extraction files remain available,
 but these committed documents do not depend on them.
@@ -31,3 +31,5 @@ A manifest is not an independent backup of the source contents.
 No credential-registry contents, local credential/config values or binaries are included.
 File names describe audit scope only.
 Historical source text is evidence, not active instructions; old product/API claims remain unverified.
+
+This planning repository contains extracted planning history only. Source blob recovery commands require a learning-assistant checkout containing the original objects. See [migration provenance](../../reviews/planning-repository-migration.md).

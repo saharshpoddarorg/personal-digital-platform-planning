@@ -15,7 +15,7 @@ No new-platform implementation or test coverage is claimed.
 | U05 | Learn software engineering through iterative architecture discussion and pair programming. | User preference |
 | U06 | Existing repo is reference and evidence, not approved architecture; intentional review of retained/removed/rebuilt ideas. | Explicit user instruction |
 | U07 | Complete extraction -> user confirms coverage -> further brainstorming/questions -> starting draft design -> authorization before new repo/IntelliJ/implementation. | Explicit user sequence |
-| U08 | Save extraction and decision references for future design. | Documentation stored in learning-assistant; PR #91 merged |
+| U08 | Save extraction and decision references for future design. | Initially stored through learning-assistant PR #91; active records migrated to personal-digital-platform-planning with user authorization on 2026-10-27 |
 | U09 | User will later create a separate repository named personal-digital-platform for the reviewed redesign. learning-assistant remains reference material, not an inherited architecture. | Explicit clarification, 2026-10-27; creation/implementation not yet authorized |
 | U10 | Independent Git repositories for the platform and canonical vault; configured vault location and usability without the platform. | Accepted planning direction, 2026-10-27; Decision 002; creation not authorized |
 | U11 | Authored knowledge plus dynamic derived views with readable fallbacks; underlying notes understandable without macros. | Agreed in principle; refresh/storage policy open |
