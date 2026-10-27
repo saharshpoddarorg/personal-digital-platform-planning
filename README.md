@@ -15,8 +15,10 @@ PKM and Learning are initial priorities; Productivity and Planning are future ca
 4. [Requirements register](requirements/requirements-register.md) — accepted direction and open questions.
 5. [Import-review decision](design/decisions/001-import-review.md) — provisionally accepted behavior.
 6. [Vault/platform boundaries](design/decisions/002-vault-platform-boundaries.md) — accepted direction with explicit open points.
-7. [Historical alternatives](design/explorations/historical-alternatives.md) — options to reconsider.
-8. [Evidence guide](discovery/evidence/README.md) — source index and recovery instructions.
+7. [Knowledge navigation and review](design/decisions/003-knowledge-navigation-and-review.md) — agreed behavior, provisional preferences and unselected proposals.
+8. [Open questions](reviews/open-questions.md) — unresolved details and review gates.
+9. [Historical alternatives](design/explorations/historical-alternatives.md) — options to reconsider.
+10. [Evidence guide](discovery/evidence/README.md) — source index and recovery instructions.
 
 ## Authority and record types
 

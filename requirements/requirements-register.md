@@ -24,6 +24,13 @@ No new-platform implementation or test coverage is claimed.
 | U14 | Notion/Confluence editing desired early with reconciliation into the authoritative vault. | Desired capability, not initially required; feasibility/fidelity open |
 | U15 | Phone reading/search, remote refresh and inbox capture precede proposal review, finalized-note editing and commit/push actions. | User priority; offline-search scope open |
 | U16 | One canonical note with links from elsewhere; folder-like navigation. | Working preference; exact organization open |
+| U17 | Expandable descendant navigation to leaf notes, with parent overview and optional learning guidance; multiple retrieval/browsing routes. | User requirement direction; exact tree/graph UI open |
+| U18 | Support explicitly ordered learning paths and automatically discovered material. | User preference confirmed; representation open |
+| U19 | Mandatory/optional and applicable conditional metadata; inferred values and repairs reviewable, content stays accessible. | Agreed direction; schema/enforcement open |
+| U20 | Quick capture may remain inbox material for later review/enrichment and approved commit/push. Check existing knowledge before integrating; enhance rather than duplicate useful existing material. | Agreed behavior; unavailable-vault overlap fallback not settled |
+| U21 | Existing notes with problematic edits remain in place; changes/issues need review rather than moving accepted notes to inbox. | Explicit user agreement |
+| U22 | Ordinary revision conversations leave the vault unchanged by default while offering useful enhancements. | Provisional only; user remains unsure |
+| U23 | Initial emphasis on career/software-engineering learning, with possible personal learning, notes and finance topics. | User scope preference; broader domain detail open |
 
 ## Traceability
 
@@ -32,6 +39,7 @@ No new-platform implementation or test coverage is claimed.
 - U04 affects all domains; offline, privacy, backup and performance targets remain unspecified.
 - U06–U07 map to G06–G08 and the completeness-review gate.
 - U10–U16 map to [Decision 002](../design/decisions/002-vault-platform-boundaries.md), which links related inventory IDs and historical alternatives.
+- U17–U23 map to [Decision 003](../design/decisions/003-knowledge-navigation-and-review.md); unresolved details are in the [open-question register](../reviews/open-questions.md).
 - Inventory candidates are not automatically accepted requirements.
 
 ## Deferred questions

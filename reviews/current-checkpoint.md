@@ -25,6 +25,8 @@ Separate platform and canonical vault Git repositories are now accepted planning
 The user is working through questions and concerns iteratively before a starting draft design.
 The first question (vault/platform boundaries) has an explicit planning green signal; see Decision 002 for accepted, provisional and open points.
 The user authorized moving active planning into the private personal-digital-platform-planning repository, preserving planning history and origin evidence references. See [migration provenance](planning-repository-migration.md).
+Navigation, metadata, duplicate-aware capture and existing-note review behavior are now recorded in [Decision 003](../design/decisions/003-knowledge-navigation-and-review.md). Individual statuses distinguish agreement from provisional preferences and assistant proposals.
+[Open questions](open-questions.md) explicitly retains unanswered details; none blocks the next concern.
 Next, invite the user's next question/doubt. Do not force resolution of all implementation details or restart the audit.
 Mobile offline search, connector fidelity, detailed synchronization/conflict handling and derived-view refresh remain open.
 Formal inventory completeness acceptance has not been inferred from this boundary decision.
@@ -37,13 +39,13 @@ Use this repository as the single active planning home. The old location is a re
 - [ ] Resolve requirements/alternatives and review a starting draft design.
 - [ ] Explicit authorization before creating the new implementation repository or configuring IntelliJ.
 
-Authorization to record this agreement accepts only the specific direction and rules in Decision 002. It does not approve inventory completeness, a full architecture or implementation.
+Documentation authorization does not broaden approval: Decision 002 records the explicit boundary green signal; Decision 003 preserves the status of each subsequent discussion outcome. It does not approve inventory completeness, a full architecture or implementation.
 
 ## Resume
 
 Read [overview](../README.md), [inventory](../discovery/source-inventory.md),
 [coverage](../discovery/audit-coverage.md), [requirements](../requirements/requirements-register.md)
-and [Decision 001](../design/decisions/001-import-review.md) plus [Decision 002](../design/decisions/002-vault-platform-boundaries.md).
+and [Decision 001](../design/decisions/001-import-review.md) plus [Decision 002](../design/decisions/002-vault-platform-boundaries.md), [Decision 003](../design/decisions/003-knowledge-navigation-and-review.md) and [open questions](open-questions.md).
 Continue pending review; do not restart the audit or promote historical decisions to requirements.
 
 ## Maintaining continuity
