@@ -8,7 +8,9 @@ Updated: 2026-10-28. Stage: iterative questions and boundary decisions; inventor
 - Recorded historical alternatives, discrepancies and inspection limits.
 - Recorded accepted user direction and provisional iterative import review.
 - Planning records and the original resume checkpoint were merged through PRs #91 and #92.
-- Resumed from main at 950e431f8cd637ddadf0d7cbca955754aa66ecc9; no subsequent main changes were present at this update.
+- Original resume check used learning-assistant main at 950e431f8cd637ddadf0d7cbca955754aa66ecc9. The 2026-10-28 holistic review checked learning-assistant at 73bfb9caeefaba3c06cb1ac4362f0fd9ff8e6804 and planning main at 4691507.
+- Planning PR 1 (workflow interpretation/execution, Decision 004) is merged.
+- [Holistic review](2026-10-28-holistic-review.md) verified source evidence and added explicit backlog routing/candidate details without approving additional scope.
 - User explicitly green-signalled recording the two-repository direction and editing rules in [Decision 002](../design/decisions/002-vault-platform-boundaries.md).
 - User clarified the successor repository will be named personal-digital-platform and will be created by the user later.
 
@@ -29,6 +31,7 @@ Navigation, metadata, duplicate-aware capture and existing-note review behavior 
 Request interpretation and workflow execution are independently configurable conceptual boundaries in [Decision 004](../design/decisions/004-workflow-interpretation-and-execution.md). Non-AI, bounded-AI and agent-led variants are agreed directions; final naming, non-AI coverage, contracts, Java/runtime choices and integrations remain open.
 Future documentation work must use a separate branch and PR, not direct main pushes. This workflow preference is now recorded in README and RESUME.
 [Open questions](open-questions.md) explicitly retains unanswered details; none blocks the next concern.
+Review findings distinguish completed publication/evidence checks from open design work. Formal coverage acceptance is still the user's decision.
 Next, invite the user's next question/doubt. Do not force resolution of all implementation details or restart the audit.
 Mobile offline search, connector fidelity, detailed synchronization/conflict handling and derived-view refresh remain open.
 Formal inventory completeness acceptance has not been inferred from this boundary decision.
