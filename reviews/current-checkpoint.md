@@ -1,6 +1,6 @@
 # Current checkpoint
 
-Updated: 2026-10-27. Stage: iterative questions and boundary decisions; inventory completeness acceptance remains pending.
+Updated: 2026-10-28. Stage: iterative questions and boundary decisions; inventory completeness acceptance remains pending.
 
 ## Completed
 
@@ -26,6 +26,8 @@ The user is working through questions and concerns iteratively before a starting
 The first question (vault/platform boundaries) has an explicit planning green signal; see Decision 002 for accepted, provisional and open points.
 The user authorized moving active planning into the private personal-digital-platform-planning repository, preserving planning history and origin evidence references. See [migration provenance](planning-repository-migration.md).
 Navigation, metadata, duplicate-aware capture and existing-note review behavior are now recorded in [Decision 003](../design/decisions/003-knowledge-navigation-and-review.md). Individual statuses distinguish agreement from provisional preferences and assistant proposals.
+Request interpretation and workflow execution are independently configurable conceptual boundaries in [Decision 004](../design/decisions/004-workflow-interpretation-and-execution.md). Non-AI, bounded-AI and agent-led variants are agreed directions; final naming, non-AI coverage, contracts, Java/runtime choices and integrations remain open.
+Future documentation work must use a separate branch and PR, not direct main pushes. This workflow preference is now recorded in README and RESUME.
 [Open questions](open-questions.md) explicitly retains unanswered details; none blocks the next concern.
 Next, invite the user's next question/doubt. Do not force resolution of all implementation details or restart the audit.
 Mobile offline search, connector fidelity, detailed synchronization/conflict handling and derived-view refresh remain open.
@@ -39,13 +41,13 @@ Use this repository as the single active planning home. The old location is a re
 - [ ] Resolve requirements/alternatives and review a starting draft design.
 - [ ] Explicit authorization before creating the new implementation repository or configuring IntelliJ.
 
-Documentation authorization does not broaden approval: Decision 002 records the explicit boundary green signal; Decision 003 preserves the status of each subsequent discussion outcome. It does not approve inventory completeness, a full architecture or implementation.
+Documentation authorization does not broaden approval: Decision 002 records the explicit boundary green signal; Decisions 003 and 004 preserve the status of subsequent discussion outcomes. It does not approve inventory completeness, a full architecture or implementation.
 
 ## Resume
 
 Read [overview](../README.md), [inventory](../discovery/source-inventory.md),
 [coverage](../discovery/audit-coverage.md), [requirements](../requirements/requirements-register.md)
-and [Decision 001](../design/decisions/001-import-review.md) plus [Decision 002](../design/decisions/002-vault-platform-boundaries.md), [Decision 003](../design/decisions/003-knowledge-navigation-and-review.md) and [open questions](open-questions.md).
+and [Decision 001](../design/decisions/001-import-review.md) plus [Decision 002](../design/decisions/002-vault-platform-boundaries.md), [Decision 003](../design/decisions/003-knowledge-navigation-and-review.md), [Decision 004](../design/decisions/004-workflow-interpretation-and-execution.md) and [open questions](open-questions.md).
 Continue pending review; do not restart the audit or promote historical decisions to requirements.
 
 ## Maintaining continuity
