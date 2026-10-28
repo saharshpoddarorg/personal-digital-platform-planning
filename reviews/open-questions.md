@@ -1,6 +1,6 @@
 # Open questions and review gates
 
-Updated: 2026-10-27. These are recorded design questions, not unfinished publication tasks. No item below blocks the user's next question/concern. Formal design/implementation gates remain explicit.
+Updated: 2026-10-28. These are recorded design questions, not unfinished publication tasks. No item below blocks the user's next question/concern. Formal design/implementation gates remain explicit.
 
 | ID | Question / unresolved detail | Status / next treatment |
 |---|---|---|
@@ -15,7 +15,10 @@ Updated: 2026-10-27. These are recorded design questions, not unfinished publica
 | O09 | Notion/Confluence editing feasibility, identity/version mapping, fidelity and reconciliation | Desired early capability; technical investigation pending |
 | O10 | Detailed concurrency/conflict handling, rollback, interrupted/failed application and proposal persistence | Open; preserve conflicts and interrupt for review accepted for now |
 | O11 | Privacy/local-cloud boundaries, backups/restore guarantees, accessibility/performance and search/learning quality criteria | Open; derive measurable expectations from use cases |
-| O12 | Runtime/language, modules, agent/tool composition, deployment and migration dispositions | Open; no implementation architecture chosen |
+| O12 | Runtime/language, modules, agent/tool composition, deployment and migration dispositions | Open; Decision 004 clarifies conceptual boundaries only; no implementation architecture chosen |
+| O13 | Final naming, operation-request schema, capability guarantees and composition of interpreter/executor variants | Open; conceptual separation agreed in Decision 004 |
+| O14 | Which workflows have complete non-AI variants, recap content conventions, quality limits and behavior when required material is absent | Open; existing-material assembly is the initial recommendation, no parity promise |
+| O15 | Concrete assistant integrations/access adapters, mode overrides, future routing rules, budgets, error/cancellation and fallback behavior | Open; no provider/transport selected; no silent AI escalation |
 
 ## Remaining review gates
 

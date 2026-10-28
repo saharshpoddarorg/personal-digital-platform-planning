@@ -31,6 +31,11 @@ No new-platform implementation or test coverage is claimed.
 | U21 | Existing notes with problematic edits remain in place; changes/issues need review rather than moving accepted notes to inbox. | Explicit user agreement |
 | U22 | Ordinary revision conversations leave the vault unchanged by default while offering useful enhancements. | Provisional only; user remains unsure |
 | U23 | Initial emphasis on career/software-engineering learning, with possible personal learning, notes and finance topics. | User scope preference; broader domain detail open |
+| U24 | Separate request interpretation from workflow execution, connected by an explicit operation request; variants can be chosen independently. | Agreed conceptual direction, 2026-10-28; Decision 004; naming/contracts open |
+| U25 | Support non-AI, bounded-AI and agent-led approaches where useful; an AI entry point can invoke a non-AI operation. | Agreed direction; no requirement for three implementations of every capability |
+| U26 | Default mode per workflow with explicit override; visible selection and no silent escalation to AI. | Agreed direction; automatic rule-based selection not selected |
+| U27 | Prefer complete non-AI workflows where feasible; initially assemble existing recap material and disclose missing content rather than promise arbitrary synthesis. | User preference and initial recommendation; exact coverage and quality criteria open |
+| U28 | Evaluate technology for user understandability/maintenance; Java familiarity matters without mandating Java-only implementation. | User preference; stack selection open |
 
 ## Traceability
 
@@ -40,6 +45,7 @@ No new-platform implementation or test coverage is claimed.
 - U06–U07 map to G06–G08 and the completeness-review gate.
 - U10–U16 map to [Decision 002](../design/decisions/002-vault-platform-boundaries.md), which links related inventory IDs and historical alternatives.
 - U17–U23 map to [Decision 003](../design/decisions/003-knowledge-navigation-and-review.md); unresolved details are in the [open-question register](../reviews/open-questions.md).
+- U24–U28 map to [Decision 004](../design/decisions/004-workflow-interpretation-and-execution.md), E04/E16 and open questions O12–O15.
 - Inventory candidates are not automatically accepted requirements.
 
 ## Deferred questions

@@ -1,7 +1,7 @@
 # Personal Digital Platform — discovery and design records
 
 Status: discovery baseline; not a finalized SRS or approved implementation architecture.
-Updated: 2026-10-27.
+Updated: 2026-10-28.
 
 This repository is the authoritative planning record for the Personal Digital Platform.
 [learning-assistant](https://github.com/saharshpoddarorg/learning-assistant) is an experimental reference, not the architectural authority.
@@ -16,9 +16,10 @@ PKM and Learning are initial priorities; Productivity and Planning are future ca
 5. [Import-review decision](design/decisions/001-import-review.md) — provisionally accepted behavior.
 6. [Vault/platform boundaries](design/decisions/002-vault-platform-boundaries.md) — accepted direction with explicit open points.
 7. [Knowledge navigation and review](design/decisions/003-knowledge-navigation-and-review.md) — agreed behavior, provisional preferences and unselected proposals.
-8. [Open questions](reviews/open-questions.md) — unresolved details and review gates.
-9. [Historical alternatives](design/explorations/historical-alternatives.md) — options to reconsider.
-10. [Evidence guide](discovery/evidence/README.md) — source index and recovery instructions.
+8. [Workflow interpretation and execution](design/decisions/004-workflow-interpretation-and-execution.md) — agreed conceptual direction; naming and implementations open.
+9. [Open questions](reviews/open-questions.md) — unresolved details and review gates.
+10. [Historical alternatives](design/explorations/historical-alternatives.md) — options to reconsider.
+11. [Evidence guide](discovery/evidence/README.md) — source index and recovery instructions.
 
 ## Authority and record types
 
@@ -52,3 +53,7 @@ Start a new chat by supplying this repository URL and asking the assistant to re
 Record substantive outcomes with accepted/proposed/provisional/deferred/superseded status, rationale, evidence and open questions. Update the checkpoint, review the diff and publish authorized changes. Do not keep a second evolving copy in learning-assistant. Git only preserves changes that are committed; the remote only receives pushed changes.
 
 See [migration provenance](reviews/planning-repository-migration.md) for source commits and preservation limits. Preserve the origin repository or migrate required source evidence before retiring it.
+
+## Contribution workflow
+
+Use a separate branch and pull request for ongoing changes, including documentation. Do not work directly on or push directly to main. Review/validate changes, publish the branch and PR, and merge only when authorized. Initial repository population and a subsequent direct push predated this user clarification; do not rewrite history to manufacture retroactive PRs. Branch protection has not been configured, so this is a workflow rule rather than a verified server-enforced restriction.
