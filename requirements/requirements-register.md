@@ -11,7 +11,7 @@ No new-platform implementation or test coverage is claimed.
 | U01 | Long-lived Personal Digital Platform; PKM and Learning first; Productivity and Planning evolve from real need. | User context transfer |
 | U02 | Manual editing and platform-driven creation/import/organization/linking/enhancement via deterministic code/APIs, configured flows or AI agents. | Accepted mechanism-independent scope; Decision 002 |
 | U03 | Rich navigation, metadata, tags, relationships and lexical/semantic/AI retrieval. | User preference; implementation open |
-| U04 | Desktop and Android, portability, privacy, backups, longevity. | User preference; measurable requirements pending |
+| U04 | Desktop and mobile access, portability, privacy, backups, longevity. Windows/macOS laptops and Android/iPhone were mentioned; phone priorities are in U15. | User preference; platform parity, offline scope and measurable requirements pending |
 | U05 | Learn software engineering through iterative architecture discussion and pair programming. | User preference |
 | U06 | Existing repo is reference and evidence, not approved architecture; intentional review of retained/removed/rebuilt ideas. | Explicit user instruction |
 | U07 | Complete extraction -> user confirms coverage -> further brainstorming/questions -> starting draft design -> authorization before new repo/IntelliJ/implementation. | Explicit user sequence |

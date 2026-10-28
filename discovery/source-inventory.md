@@ -4,6 +4,8 @@ Source: saharshpoddarorg/learning-assistant, snapshot `8db1797ef36ef68f6675ad532
 Status: extracted candidate inventory; user completeness acceptance pending.
 IDs K/L/G/E are stable identifiers from the extraction. No migration disposition has been approved.
 
+For explicit backlog routing and details compressed by these groups, see the [source crosswalk](source-capability-crosswalk.md) and [candidate detail supplement](candidate-detail-supplement.md). These do not promote historical proposals to requirements.
+
 Evidence labels: code = implementation exists but untested here; workflow/prompt = instructions, not an independently verified executable feature; proposal = desired behavior; historical = recovered from prior versions or PRs; mixed = more than one.
 
 ## Knowledge management

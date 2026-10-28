@@ -10,7 +10,7 @@ PKM and Learning are initial priorities; Productivity and Planning are future ca
 ## Read in this order
 
 1. [Current checkpoint](reviews/current-checkpoint.md) — progress and pending reviews.
-2. [Idea and capability inventory](discovery/source-inventory.md) — 62 groups with stable IDs and evidence.
+2. [Idea and capability inventory](discovery/source-inventory.md) — 62 groups with stable IDs and evidence; see also the [source crosswalk](discovery/source-capability-crosswalk.md) and [candidate detail supplement](discovery/candidate-detail-supplement.md).
 3. [Audit coverage](discovery/audit-coverage.md) — inspection scope, findings and limits.
 4. [Requirements register](requirements/requirements-register.md) — accepted direction and open questions.
 5. [Import-review decision](design/decisions/001-import-review.md) — provisionally accepted behavior.
@@ -57,3 +57,7 @@ See [migration provenance](reviews/planning-repository-migration.md) for source 
 ## Contribution workflow
 
 Use a separate branch and pull request for ongoing changes, including documentation. Do not work directly on or push directly to main. Review/validate changes, publish the branch and PR, and merge only when authorized. Initial repository population and a subsequent direct push predated this user clarification; do not rewrite history to manufacture retroactive PRs. Branch protection has not been configured, so this is a workflow rule rather than a verified server-enforced restriction.
+
+## Latest coverage review
+
+[October 28 holistic review](reviews/2026-10-28-holistic-review.md) records verified baselines, corrections, remaining work and inspection limits. No review establishes exhaustive semantic coverage or approves an implementation architecture.

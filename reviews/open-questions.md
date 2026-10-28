@@ -19,6 +19,7 @@ Updated: 2026-10-28. These are recorded design questions, not unfinished publica
 | O13 | Final naming, operation-request schema, capability guarantees and composition of interpreter/executor variants | Open; conceptual separation agreed in Decision 004 |
 | O14 | Which workflows have complete non-AI variants, recap content conventions, quality limits and behavior when required material is absent | Open; existing-material assembly is the initial recommendation, no parity promise |
 | O15 | Concrete assistant integrations/access adapters, mode overrides, future routing rules, budgets, error/cancellation and fallback behavior | Open; no provider/transport selected; no silent AI escalation |
+| O16 | Whether historical shared-workspace, collaborative editing/annotation and sharing capabilities belong in successor scope | Candidate only (K02/K14/E07; BLI-077/079); preserve ideas, no multi-user or sharing approval |
 
 ## Remaining review gates
 
@@ -31,3 +32,7 @@ Updated: 2026-10-28. These are recorded design questions, not unfinished publica
 Repository boundaries and planning migration are completed. Migration pointer PR [94](https://github.com/saharshpoddarorg/learning-assistant/pull/94) was merged at 73bfb9caeefaba3c06cb1ac4362f0fd9ff8e6804. Historical evidence remains at the pinned origin.
 
 This register preserves unanswered questions rather than requiring premature decisions. Add answers with rationale and affected requirement/decision IDs; keep superseded reasoning recoverable.
+
+## Holistic review follow-up
+
+[Review findings](2026-10-28-holistic-review.md) and the [candidate supplement](../discovery/candidate-detail-supplement.md) preserve compressed historical detail. Their inclusion does not create implementation tasks or resolve the open questions above. Planning PR 1 is merged; the review changes use a separate PR.

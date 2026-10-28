@@ -1,7 +1,7 @@
 # Repository extraction audit
 
-Date: 2026-10-27. Source: [learning-assistant](https://github.com/saharshpoddarorg/learning-assistant).
-Pinned main: `8db1797ef36ef68f6675ad53231f887d51fd92b9`; tree `9e478a881d2d8ff4b3dc8246f344d60d4dbff45b`. Main rechecked on 2026-10-27 and unchanged.
+Historical audit snapshot: 2026-10-27. Source: [learning-assistant](https://github.com/saharshpoddarorg/learning-assistant).
+Pinned main: `8db1797ef36ef68f6675ad53231f887d51fd92b9`; tree `9e478a881d2d8ff4b3dc8246f344d60d4dbff45b`. Main was unchanged at the original audit check; this is not a statement about today's main.
 
 The original-text extracts described below are local audit working records, not files shipped in this documentation branch. Committed evidence references point to the same source versions already in Git history.
 
@@ -54,3 +54,7 @@ The original-text extracts described below are local audit working records, not 
 
 This is a bounded extraction checkpoint, not proof that every useful sentence in every revision has been found.
 This documentation branch is authorized. No new-platform implementation repository, IntelliJ configuration or migration has been created.
+
+## Subsequent review, 2026-10-28
+
+The original gate above records the audit-time state. The user subsequently initiated requirements/design questions; that authorization gate is satisfied, while formal inventory completeness acceptance remains pending. Planning was moved to its own repository, and Decision 004 was merged in planning PR 1. See the [holistic review](../reviews/2026-10-28-holistic-review.md), [current checkpoint](../reviews/current-checkpoint.md), [source crosswalk](source-capability-crosswalk.md) and [candidate detail supplement](candidate-detail-supplement.md) for current accounting. Implementation/vault creation remains unauthorized.
