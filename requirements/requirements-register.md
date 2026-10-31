@@ -37,6 +37,7 @@ No new-platform implementation or test coverage is claimed.
 | U27 | Prefer complete non-AI workflows where feasible; initially assemble existing recap material and disclose missing content rather than promise arbitrary synthesis. | User preference and initial recommendation; exact coverage and quality criteria open |
 | U28 | Evaluate technology for user understandability/maintenance; Java familiarity matters without mandating Java-only implementation. | User preference; stack selection open |
 | U29 | Guided revision offers a skippable understanding check, one question at a time up to three; answers tailor the current session independently of saving learning progress. | Provisional defaults accepted 2026-10-31; feedback/experience variants remain proposals in the first architecture draft |
+| U30 | Stable note identity independent of filename/folder; track exact reviewed content version; pause and show differences if an affected note changes before application. | Provisional behavioral defaults accepted 2026-10-31; identity storage/schema and concurrency implementation remain open |
 
 ## Traceability
 
@@ -48,6 +49,8 @@ No new-platform implementation or test coverage is claimed.
 - U17–U23 map to [Decision 003](../design/decisions/003-knowledge-navigation-and-review.md); unresolved details are in the [open-question register](../reviews/open-questions.md).
 - U24–U28 map to [Decision 004](../design/decisions/004-workflow-interpretation-and-execution.md), E04/E16 and open questions O12–O15.
 - U29 maps to L02/L04/L05 and the [first architecture draft](../design/explorations/001-workflow-architecture-draft.md); O17 preserves feedback and retention questions.
+- U30 maps to K04/K05/K09/K15, Decisions 001/002 and the [identity/versioning exploration](../design/explorations/002-note-identity-and-versioning.md); O01/O02/O10 retain mechanism questions.
+- [Personal project tooling](../design/explorations/003-personal-project-tooling.md) records provisional GitHub direction and Obsidian candidacy, not implementation mandates.
 - Inventory candidates are not automatically accepted requirements.
 
 ## Deferred questions
