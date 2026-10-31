@@ -1,6 +1,6 @@
 # Open questions and review gates
 
-Updated: 2026-10-28. These are recorded design questions, not unfinished publication tasks. No item below blocks the user's next question/concern. Formal design/implementation gates remain explicit.
+Updated: 2026-10-31. These are recorded design questions, not unfinished publication tasks. No item below blocks the user's next question/concern. Formal design/implementation gates remain explicit.
 
 | ID | Question / unresolved detail | Status / next treatment |
 |---|---|---|
@@ -20,11 +20,12 @@ Updated: 2026-10-28. These are recorded design questions, not unfinished publica
 | O14 | Which workflows have complete non-AI variants, recap content conventions, quality limits and behavior when required material is absent | Open; existing-material assembly is the initial recommendation, no parity promise |
 | O15 | Concrete assistant integrations/access adapters, mode overrides, future routing rules, budgets, error/cancellation and fallback behavior | Open; no provider/transport selected; no silent AI escalation |
 | O16 | Whether historical shared-workspace, collaborative editing/annotation and sharing capabilities belong in successor scope | Candidate only (K02/K14/E07; BLI-077/079); preserve ideas, no multi-user or sharing approval |
+| O17 | Revision experience/feedback defaults, authored question/answer conventions, and session versus saved-progress/history retention | U29 provisional defaults accepted; immediate feedback and optional test mode proposed; see the [architecture draft](../design/explorations/001-workflow-architecture-draft.md); retention remains open with O11 |
 
 ## Remaining review gates
 
-- Formal inventory-coverage confirmation remains pending; targeted gaps can be investigated during ongoing questions.
-- Continue requirements/questions iteratively, then review a starting draft design.
+- Starting draft design is authorized using the captured inventory as a working baseline; no exhaustive completeness claim. Investigate targeted gaps as needed.
+- Review the starting architecture draft iteratively; no full architecture is approved.
 - Obtain explicit authorization before creating the implementation repository/vault, scaffolding code or configuring IntelliJ.
 
 ## Completion accounting
@@ -35,4 +36,4 @@ This register preserves unanswered questions rather than requiring premature dec
 
 ## Holistic review follow-up
 
-[Review findings](2026-10-28-holistic-review.md) and the [candidate supplement](../discovery/candidate-detail-supplement.md) preserve compressed historical detail. Their inclusion does not create implementation tasks or resolve the open questions above. Planning PR 1 is merged; the review changes use a separate PR.
+[Review findings](2026-10-28-holistic-review.md) and the [candidate supplement](../discovery/candidate-detail-supplement.md) preserve compressed historical detail. Their inclusion does not create implementation tasks or resolve the open questions above. Planning PRs 1 and 2 are merged. The October 31 architecture draft is a subsequent proposal, not part of the historical review.
