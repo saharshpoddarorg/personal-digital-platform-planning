@@ -1,6 +1,16 @@
 # Note identity, navigation and reviewed versions
 
-Recorded: 2026-10-31. Status: proposal for iterative review; no identity schema, link syntax or concurrency implementation is approved.
+Recorded: 2026-10-31. Status: mixed. Stable identity and conservative version review are provisionally agreed below; identity schema, link syntax and concurrency implementation remain proposals.
+
+## Subsequent provisional agreement
+
+On 2026-10-31, after the tooling discussion, the assistant restated three defaults and the user replied "sure":
+
+- Give each note a stable identity independent of filename or folder.
+- Track the exact content version used to prepare and review a proposed change.
+- If an affected note changes before application, pause and show the differences before proceeding.
+
+These are provisional behavioral defaults (U30), motivated by manual and agent editing. They do not approve an ID algorithm, in-note metadata storage, automatic identity assignment, link syntax, locking, rollback or a database. Existing proposal-version authorization, partial review and separate commit/push approval still apply. The earlier recommendations below preserve alternatives and rationale; their unaccepted details remain proposed.
 
 ## Problem and recommendation
 
@@ -8,7 +18,7 @@ A canonical note may appear in several navigation routes, move between folders, 
 
 Propose separating stable note identity, current location and exact observed version. Use the identity across platform capabilities and retain ordinary readable links for independent vault use. A platform-managed lookup index should be rebuildable from portable vault information, rather than being the only place identities survive.
 
-The user authorized continuing design, not acceptance of the alternatives below. This extends the [workflow draft](001-workflow-architecture-draft.md) without selecting Java interfaces or repository layout.
+The user authorized continuing design and subsequently accepted only the behavioral defaults recorded above; the implementation alternatives below remain unselected. This extends the [workflow draft](001-workflow-architecture-draft.md) without selecting Java interfaces or repository layout.
 
 ## Distinct concepts
 
@@ -97,6 +107,6 @@ These are design review scenarios, not implemented or executed tests.
 
 ## Next focused decision and traceability
 
-Review two recommendations before selecting schema or APIs: stable identity independent of location, and conservative re-review when affected source versions change. Then examine the minimum portable metadata/relationship model using real note examples. Existing O01/O02/O06/O09/O10/O11/O13 remain open.
+The two behavioral recommendations are now provisionally agreed; next examine the minimum portable metadata/relationship model using real note examples. Existing O01/O02/O06/O09/O10/O11/O13 remain open.
 
-Traceability: U10–U13, U16–U21 and U24; inventory K04/K05/K08–K11/K15/K17; [Decision 001](../decisions/001-import-review.md), [Decision 002](../decisions/002-vault-platform-boundaries.md), [Decision 003](../decisions/003-knowledge-navigation-and-review.md), [requirements](../../requirements/requirements-register.md) and [open questions](../../reviews/open-questions.md). No historical feature disposition or accepted requirement is changed.
+Traceability: U10–U13, U16–U21, U24 and U30; inventory K04/K05/K08–K11/K15/K17; [Decision 001](../decisions/001-import-review.md), [Decision 002](../decisions/002-vault-platform-boundaries.md), [Decision 003](../decisions/003-knowledge-navigation-and-review.md), [requirements](../../requirements/requirements-register.md) and [open questions](../../reviews/open-questions.md). No historical feature disposition is changed; U30 records the subsequent provisional agreement.
