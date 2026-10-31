@@ -65,3 +65,5 @@ Use a separate branch and pull request for ongoing changes, including documentat
 ## Starting architecture draft
 
 The user authorized drafting on 2026-10-31 using the inventory as a working baseline, without claiming exhaustive coverage or approving implementation. The [first workflow architecture draft](design/explorations/001-workflow-architecture-draft.md) tests shared responsibilities against revision, search/navigation and capture/enhancement. These examples do not limit platform scope. Review proposals iteratively before choosing modules, interfaces or a stack.
+
+The [identity/versioning exploration](design/explorations/002-note-identity-and-versioning.md) develops portable note identity, navigation through moves and reviewed-change preconditions. These recommendations remain proposed, with metadata/link formats and concurrency mechanisms open.

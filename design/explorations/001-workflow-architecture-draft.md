@@ -111,7 +111,7 @@ These are proposed acceptance scenarios, not executed tests or a claim of implem
 
 Shared capabilities reduce duplicate policy and retrieval logic, but too much abstraction can obscure simple flows. Draft concrete request/result examples before choosing interfaces or a generic workflow engine. Keep logical boundaries first; do not infer microservices or one module per box.
 
-Next review should examine knowledge identity/version semantics using one canonical note found through multiple routes, then the same note edited while a proposal is pending. This connects navigation to safe application across all three examples. Source freshness, privacy, retention, non-AI coverage and failure behavior remain open; they should be resolved before their dependent contracts are finalized.
+The [note identity/versioning exploration](002-note-identity-and-versioning.md) now examines one canonical note found through multiple routes and the same note edited while a proposal is pending. Its recommendations remain proposed. This connects navigation to safe application across all three examples. Source freshness, privacy, retention, non-AI coverage and failure behavior remain open; they should be resolved before their dependent contracts are finalized.
 
 ## Traceability
 
