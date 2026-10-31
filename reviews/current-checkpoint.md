@@ -9,7 +9,7 @@ Updated: 2026-10-31. Stage: starting architecture draft authorized; proposals re
 - Recorded accepted user direction and provisional iterative import review.
 - Planning records and the original resume checkpoint were merged through PRs #91 and #92.
 - Original resume check used learning-assistant main at 950e431f8cd637ddadf0d7cbca955754aa66ecc9. The 2026-10-28 holistic review checked learning-assistant at 73bfb9caeefaba3c06cb1ac4362f0fd9ff8e6804 and planning main at 4691507.
-- Planning PR 1 (workflow interpretation/execution, Decision 004) and PR 2 (holistic review) are merged; current main was verified at 99a5919 before this draft.
+- Planning PRs 1–3 are merged. PR 3 records the first architecture draft as a proposal; its merge does not approve the architecture. Main was verified at 637a057 before the identity/versioning exploration.
 - [Holistic review](2026-10-28-holistic-review.md) verified source evidence and added explicit backlog routing/candidate details without approving additional scope.
 - User explicitly green-signalled recording the two-repository direction and editing rules in [Decision 002](../design/decisions/002-vault-platform-boundaries.md).
 - User clarified the successor repository will be named personal-digital-platform and will be created by the user later.
@@ -30,7 +30,9 @@ The [first architecture draft](../design/explorations/001-workflow-architecture-
 
 U29 records provisional agreement on a skippable understanding check (one question at a time, up to three) and session tailoring independent of saved learning progress. Immediate feedback and experience variants remain proposals. Session-only tailoring does not resolve chat/log retention.
 
-Next: review the draft's shared boundaries, then examine note identity/version behavior across navigation and concurrent edits. Keep open questions visible; do not require every implementation detail before continuing or restart the audit. Mobile/offline, connector fidelity, synchronization/recovery, privacy and derived refresh remain open.
+The [identity/versioning exploration](../design/explorations/002-note-identity-and-versioning.md) proposes stable identity separate from path/version and conservative reconciliation after concurrent edits. It covers link portability, duplicate IDs, uncommitted edits and write-race limits; none of these proposed mechanics is approved.
+
+Next: review those two recommendations, then examine minimum portable metadata and relationships with real note examples. Keep open questions visible; do not require every implementation detail before continuing or restart the audit. Mobile/offline, connector fidelity, synchronization/recovery, privacy and derived refresh remain open.
 
 Use this repository as the single active planning home. Future documentation changes use a separate branch and PR; no direct main pushes. No implementation/vault creation, scaffolding or IntelliJ setup is authorized. No background work is scheduled.
 
