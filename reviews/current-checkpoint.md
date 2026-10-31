@@ -34,7 +34,9 @@ The [identity/versioning exploration](../design/explorations/002-note-identity-a
 
 The [tooling discussion](../design/explorations/003-personal-project-tooling.md) provisionally favors GitHub Free for development/backlog, with Obsidian Free the leading vault candidate. The optional local trial can be skipped; it is not a pending prerequisite. Architecture has resumed with user agreement.
 
-Next: examine minimum portable metadata and relationships with real note examples; do not re-ask the accepted identity defaults. Keep open questions visible; do not require every implementation detail before continuing or restart the audit. Mobile/offline, connector fidelity, synchronization/recovery, privacy and derived refresh remain open.
+The [information-model draft](../design/explorations/004-note-information-model.md) now separates authored notes, observed source versions, derived views, capture/proposal records and learning sessions. Whole-note metadata first remains a provisional assistant recommendation; the user remains unsure. U30 remains provisional, explicitly including apparently unrelated edits; assess interruption cost later.
+
+Next: review the information-model examples, then compare folder-derived hierarchy with explicit parent relationships and identify a minimal metadata set. Conceptual architecture design is already underway; detailed formats/contracts/modules and implementation are not selected. Keep open questions visible; do not require every implementation detail before continuing or restart the audit. Mobile/offline, connector fidelity, synchronization/recovery, privacy and derived refresh remain open.
 
 Use this repository as the single active planning home. Future documentation changes use a separate branch and PR; no direct main pushes. No implementation/vault creation, scaffolding or IntelliJ setup is authorized. No background work is scheduled.
 
@@ -59,3 +61,7 @@ Read the [architecture draft](../design/explorations/001-workflow-architecture-d
 After substantive discussion, update the relevant record with status, rationale, evidence and affected IDs.
 Keep open questions distinct from accepted decisions. Preserve superseded rationale and review removals/redesigns.
 Add implementation/test links only when implementation exists. Keep this checkpoint current for future sessions.
+
+## Publication and handoff
+
+PRs 1–4 are merged. PR [5](https://github.com/saharshpoddarorg/personal-digital-platform-planning/pull/5) carries the subsequent identity/tooling agreements, information-model draft and updated resume packet. It was open when this packet was prepared; check its current state and read its head if still unmerged. Merging documentation does not approve all proposals. Use [RESUME](../RESUME.md) for a new chat; current repository records take precedence over stale handoff text.

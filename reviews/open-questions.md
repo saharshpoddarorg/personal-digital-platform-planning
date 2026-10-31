@@ -5,7 +5,7 @@ Updated: 2026-10-31. These are recorded design questions, not unfinished publica
 | ID | Question / unresolved detail | Status / next treatment |
 |---|---|---|
 | O01 | Exact folder taxonomy, whether one primary parent is mandatory, relationship semantics and note identity/link preservation through moves | Open; stable identity independent of path provisionally agreed (U30); representation/link mechanics open in [identity exploration](../design/explorations/002-note-identity-and-versioning.md); primary-parent direction still provisional |
-| O02 | Metadata fields, conditional requirements, format/location, generated versus inferred values and review rules | Open; mandatory/optional distinction desired, no schema selected |
+| O02 | Metadata fields, conditional requirements, format/location, generated versus inferred values and review rules | Open; mandatory/optional distinction desired; whole-note-first and minimal fields proposed in [information model](../design/explorations/004-note-information-model.md), no schema selected |
 | O03 | Finalization thresholds and which validation issues, if any, block platform commit/push; enforcement outside the platform | Open; retain readable content and offer reviewed repairs; no blanket blocking rule approved |
 | O04 | Ordinary revision conversations leave the vault unchanged and offer enhancements | Provisional default; revisit examples, not a permanent silent-capture policy |
 | O05 | Offline/unavailable-vault capture and pending overlap assessment | Assistant proposal awaiting later confirmation; avoid promising duplicate prevention without retrieval |
