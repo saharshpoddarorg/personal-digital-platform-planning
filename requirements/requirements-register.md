@@ -36,6 +36,7 @@ No new-platform implementation or test coverage is claimed.
 | U26 | Default mode per workflow with explicit override; visible selection and no silent escalation to AI. | Agreed direction; automatic rule-based selection not selected |
 | U27 | Prefer complete non-AI workflows where feasible; initially assemble existing recap material and disclose missing content rather than promise arbitrary synthesis. | User preference and initial recommendation; exact coverage and quality criteria open |
 | U28 | Evaluate technology for user understandability/maintenance; Java familiarity matters without mandating Java-only implementation. | User preference; stack selection open |
+| U29 | Guided revision offers a skippable understanding check, one question at a time up to three; answers tailor the current session independently of saving learning progress. | Provisional defaults accepted 2026-10-31; feedback/experience variants remain proposals in the first architecture draft |
 
 ## Traceability
 
@@ -46,6 +47,7 @@ No new-platform implementation or test coverage is claimed.
 - U10–U16 map to [Decision 002](../design/decisions/002-vault-platform-boundaries.md), which links related inventory IDs and historical alternatives.
 - U17–U23 map to [Decision 003](../design/decisions/003-knowledge-navigation-and-review.md); unresolved details are in the [open-question register](../reviews/open-questions.md).
 - U24–U28 map to [Decision 004](../design/decisions/004-workflow-interpretation-and-execution.md), E04/E16 and open questions O12–O15.
+- U29 maps to L02/L04/L05 and the [first architecture draft](../design/explorations/001-workflow-architecture-draft.md); O17 preserves feedback and retention questions.
 - Inventory candidates are not automatically accepted requirements.
 
 ## Deferred questions

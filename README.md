@@ -1,7 +1,7 @@
 # Personal Digital Platform — discovery and design records
 
 Status: discovery baseline; not a finalized SRS or approved implementation architecture.
-Updated: 2026-10-28.
+Updated: 2026-10-31.
 
 This repository is the authoritative planning record for the Personal Digital Platform.
 [learning-assistant](https://github.com/saharshpoddarorg/learning-assistant) is an experimental reference, not the architectural authority.
@@ -61,3 +61,7 @@ Use a separate branch and pull request for ongoing changes, including documentat
 ## Latest coverage review
 
 [October 28 holistic review](reviews/2026-10-28-holistic-review.md) records verified baselines, corrections, remaining work and inspection limits. No review establishes exhaustive semantic coverage or approves an implementation architecture.
+
+## Starting architecture draft
+
+The user authorized drafting on 2026-10-31 using the inventory as a working baseline, without claiming exhaustive coverage or approving implementation. The [first workflow architecture draft](design/explorations/001-workflow-architecture-draft.md) tests shared responsibilities against revision, search/navigation and capture/enhancement. These examples do not limit platform scope. Review proposals iteratively before choosing modules, interfaces or a stack.
