@@ -1,5 +1,18 @@
 # Resume Personal Digital Platform — incremental design and pair programming
 
+## Latest checkpoint — public implementation repository created
+
+Updated: 2026-10-31. This section supersedes older statements below that the implementation repository has not been created, and older publication caveats for PR #6.
+
+- The user created [personal-digital-platform](https://github.com/saharshpoddarorg/personal-digital-platform). Its public visibility was verified; the user explicitly wants to showcase it on a résumé.
+- Planning PR #6 was verified merged. Documentation merge does not approve all design proposals.
+- The user requested ongoing durable checkpoints in the implementation repository and an update to this existing handoff. Keep this file as the planning handoff; do not add a competing actual-design-resume.md.
+- The [implementation checkpoint](https://github.com/saharshpoddarorg/personal-digital-platform/blob/codex/continuity-handoff/RESUME.md) records the next runnable increment, status and continuity protocol. It is initially on a review branch; check live PR/merge status. Once merged, main README links to main RESUME.md so the repository root can serve as the entry point.
+- No platform code, Java/build setup, installation, IntelliJ configuration or canonical vault creation was performed in this session. The initial implementation README was verified. The first increment still requires explicit authorization; repository creation and this handoff request are not blanket implementation authorization.
+- The canonical vault can follow when real notes are needed. Keep private knowledge and evidence out of the public implementation repository.
+- Update checkpoints after meaningful steps/decisions and before planned breaks, with branch/commit/PR status, tests, unfinished work, decision status and next action. Publish through branches/PRs; merge only when authorized. Keep the established reusable planning branch link current when publishing authorized handoffs.
+- No automatic background saving is configured; checkpoints cannot guarantee preservation of every chat sentence or work after an abrupt interruption. Inspect current remote and local state on resume.
+
 Updated: 2026-10-31. Copy the block below into a new chat. The repository records carry the detailed capability/evidence history; this packet is a map, not a claim of exhaustive historical coverage.
 
 ```text
@@ -73,3 +86,4 @@ Keep substantive outcomes in planning documents with proposed/provisional/accept
 ## Publication note
 
 [PR #5](https://github.com/saharshpoddarorg/personal-digital-platform-planning/pull/5) is merged. This later handoff is tracked by [PR #6](https://github.com/saharshpoddarorg/personal-digital-platform-planning/pull/6); check its live merge status. Use the [reusable handoff link](https://github.com/saharshpoddarorg/personal-digital-platform-planning/blob/codex/provisional-identity-tooling/RESUME.md) in a new chat, even without an accompanying instruction. Read it as a request to resume the incremental discussion. The original branch is retained for this link. This handoff records the latest conversation; other planning documents have not yet been revised to reflect the new working approach. All future assistants should recheck live status. No handoff can guarantee retention of every historical sentence; the indexed evidence and explicit inspection limits preserve the basis for targeted follow-up.
+
