@@ -1,5 +1,14 @@
 # Resume Personal Digital Platform — incremental design and pair programming
 
+## Iteration-one setup checkpoint — 2026-11-01
+
+- Implementation PR #1 and planning PR #7 are merged; their older publication caveats below are historical.
+- The user cloned the public implementation repository in IntelliJ and pushed .gitignore excluding local IDE/macOS files.
+- The setup and checkpoint PR is merged: https://github.com/saharshpoddarorg/personal-digital-platform/pull/2
+- The next working branch is codex/iteration-1 in the implementation repository, created from updated main as part of this handoff. Verify remote and local state before continuing.
+- Read the [current implementation checkpoint](https://github.com/saharshpoddarorg/personal-digital-platform/blob/main/RESUME.md). No platform implementation or Java/build selection has occurred. The next session should inspect tooling, explain the first runnable slice, and pair program in small reviewed increments.
+- The user authorized this checkpoint publication/merge and branch preparation. Preserve the existing implementation and publication approval boundaries for later work.
+
 ## Latest checkpoint — public implementation repository created
 
 Updated: 2026-10-31. This section supersedes older statements below that the implementation repository has not been created, and older publication caveats for PR #6.
